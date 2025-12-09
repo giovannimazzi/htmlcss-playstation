@@ -3,6 +3,7 @@
 cartella/repo: `htmlcss-playstation`
 
 **Descrizione**
+
 Ricreiamo il layout responsive della home page di PlayStation, seguendo gli screenshot allegati, che sono i nostri riferimenti reali (non il sito online).
 
 La richiesta è realizzarlo utilizzando Bootstrap 5.
@@ -13,6 +14,7 @@ Avrete diversi giorni per completare il layout, come sempre partite dall'analisi
 Di questo cercate anche di capire cosa è uguale o molto simile e quindi realizzabile una volta per poi essere riciclato, ottimizzando tempo e codice.
 
 **Consigli:**
+
 Ricordiamo che lavorando in responsive ogni blocco e sezione va pensato in quell'ottica da subito.
 
 Tenete un approccio ordinato ma non strafate anche con l'ottimizzazione durante il primo sviluppo di ogni blocco. Prima di passare al prossimo potete sempre tornarci e ripulire/ottimizzare/aggiustare.
