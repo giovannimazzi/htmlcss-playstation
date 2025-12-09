@@ -42,7 +42,6 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- navbar -->
     <section id="navbar" class="fixed-top">
       <div
         class="bg-black text-end p-2 d-flex justify-content-end align-items-center"
@@ -55,7 +54,12 @@
       </div>
       <nav class="navbar navbar-expand-lg bg-white" data-bs-theme="light">
         <div class="container-fluid">
-          <a class="navbar-brand p-0" href="#"> <img src="./assets/img/play_logo.svg" alt="play_logo" style="height: 3rem;"></a>
+          <a class="navbar-brand p-0" href="#"
+            ><img
+              src="./assets/img/play_logo.svg"
+              alt="play_logo"
+              style="height: 3rem"
+          /></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -113,12 +117,36 @@
         </div>
       </nav>
     </section>
-    <section id="page-content" style="margin-top: var(--navbar-height)">
-      CONTENUTI DELLA PAGINA
+    <section
+      id="page-content"
+      class="d-flex flex-column"
+      style="
+        min-height: calc(100vh - var(--navbar-height));
+        margin-top: var(--navbar-height);
+      "
+    >
+      <header
+        class="bg-img"
+        style="height: 80vh; background-image: var(--bg-img-header)"
+      >
+        <div class="container text-white">
+          <img
+            src="./assets/img/returnal-hero-banner-logo.png"
+            alt="returnal-hero-banner-logo"
+            style="height: 2.5rem"
+          />
+          <h1>Rompi il cerchio</h1>
+          <p>
+            Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni
+            rinascita in questo esplosivo thriller fantascientifico, disponibile
+            in esclusiva su PS5.
+          </p>
+          <button class="btn btn-primary">Acquista ora</button>
+        </div>
+      </header>
+      <main class="flex-grow-1">MAIN</main>
+      <footer class="mt-auto" style="background-color: #00439c">FOOTER</footer>
     </section>
-    <footer style="background-color: #00439C;">
-      FOOTER
-    </footer>
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -126,4 +154,4 @@
       crossorigin="anonymous"
     ></script>
   </body>
-</html
+</html>
