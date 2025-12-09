@@ -1,3 +1,7 @@
+:root {
+  --navbar-height: 93.59px;
+}
+
 * {
   font-family: "Inter", sans-serif;
 }
