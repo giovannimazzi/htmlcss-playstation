@@ -8,6 +8,66 @@
   font-family: "Inter", sans-serif;
 }
 
+#sony_logo {
+  height: 0.85rem;
+}
+
+#play-logo {
+  height: 3rem;
+}
+
+#lens {
+  width: 25px;
+}
+
+#page-content {
+  min-height: calc(100vh - var(--navbar-height));
+  margin-top: var(--navbar-height);
+}
+
+#header-content {
+  min-height: 65vh;
+  background-image: var(--bg-img-header);
+}
+
+#returnal-hero-banner-logo {
+  height: 3rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+#ittakestwo-content {
+  background-image: var(--bg-img-ittakestwo);
+}
+
+#it-takes-two-logo {
+  height: 12.8rem;
+}
+
+#ittakestwo-content h2 {
+  font-size: 2.5rem;
+}
+
+#social h3 {
+  font-size: 2rem;
+}
+
+footer {
+  background-color: #00439c;
+}
+
+.nav-chevron {
+  width: 10px;
+  bottom: 12px;
+  right: -10px;
+}
+
+.navbar-right-side {
+  max-height: 40px;
+}
+
 .bg-img {
   background-size: cover;
   background-position: top;
@@ -28,10 +88,7 @@
   transition: translate 0.5s ease;
 }
 
-#navbar a:hover img.default {
-  display: none;
-}
-
+#navbar a:hover img.default,
 #navbar a img.in_hover {
   display: none;
 }
@@ -42,4 +99,18 @@
 
 #navbar a span {
   font-weight: 600;
+}
+
+/*sm*/
+@media (min-width: 576px) {
+  .social-icon {
+    max-width: 120px;
+  }
+}
+
+/*lg*/
+@media (min-width: 992px) {
+  .bg-img-content {
+    max-width: calc(100% / 3);
+  }
 }

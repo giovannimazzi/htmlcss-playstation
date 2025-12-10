@@ -41,24 +41,18 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body style="min-width: 450px">
+  <body>
     <section id="navbar" class="fixed-top text-nowrap">
-      <div
-        class="bg-black text-end p-2 d-flex justify-content-end align-items-center"
-      >
-        <img
-          src="./assets/img/sony_logo.svg"
-          alt="sony_logo"
-          style="height: 0.85rem"
-        />
+      <div class="bg-black p-2 d-flex justify-content-end align-items-center">
+        <img id="sony_logo" src="./assets/img/sony_logo.svg" alt="sony_logo" />
       </div>
       <nav class="navbar navbar-expand-lg bg-white" data-bs-theme="light">
         <div class="container-fluid">
           <a class="navbar-brand p-0" href="#"
             ><img
+              id="play_logo"
               src="./assets/img/play_logo.svg"
               alt="play_logo"
-              style="height: 3rem"
           /></a>
           <button
             class="navbar-toggler"
@@ -79,14 +73,12 @@
                   <img
                     src="./assets/img/chevron-down-solid.svg"
                     alt="chevron-down-solid"
-                    class="position-absolute default"
-                    style="width: 10px; bottom: 12px; right: -10px"
+                    class="position-absolute default nav-chevron"
                   />
                   <img
                     src="./assets/img/chevron-down-solid-hover.svg"
                     alt="chevron-down-solid-hover"
-                    class="position-absolute in_hover"
-                    style="width: 10px; bottom: 12px; right: -10px"
+                    class="position-absolute in_hover nav-chevron"
                   />
                 </a>
               </li>
@@ -98,14 +90,12 @@
                   <img
                     src="./assets/img/chevron-down-solid.svg"
                     alt="chevron-down-solid"
-                    class="position-absolute default"
-                    style="width: 10px; bottom: 12px; right: -10px"
+                    class="position-absolute default nav-chevron"
                   />
                   <img
                     src="./assets/img/chevron-down-solid-hover.svg"
                     alt="chevron-down-solid-hover"
-                    class="position-absolute in_hover"
-                    style="width: 10px; bottom: 12px; right: -10px"
+                    class="position-absolute in_hover nav-chevron"
                   />
                 </a>
               </li>
@@ -115,14 +105,12 @@
                   <img
                     src="./assets/img/chevron-down-solid.svg"
                     alt="chevron-down-solid"
-                    class="position-absolute default"
-                    style="width: 10px; bottom: 12px; right: -10px"
+                    class="position-absolute default nav-chevron"
                   />
                   <img
                     src="./assets/img/chevron-down-solid-hover.svg"
                     alt="chevron-down-solid-hover"
-                    class="position-absolute in_hover"
-                    style="width: 10px; bottom: 12px; right: -10px"
+                    class="position-absolute in_hover nav-chevron"
                   />
                 </a>
               </li>
@@ -134,14 +122,12 @@
                   <img
                     src="./assets/img/chevron-down-solid.svg"
                     alt="chevron-down-solid"
-                    class="position-absolute default"
-                    style="width: 10px; bottom: 12px; right: -10px"
+                    class="position-absolute default nav-chevron"
                   />
                   <img
                     src="./assets/img/chevron-down-solid-hover.svg"
                     alt="chevron-down-solid-hover"
-                    class="position-absolute in_hover"
-                    style="width: 10px; bottom: 12px; right: -10px"
+                    class="position-absolute in_hover nav-chevron"
                   />
                 </a>
               </li>
@@ -153,14 +139,12 @@
                   <img
                     src="./assets/img/chevron-down-solid.svg"
                     alt="chevron-down-solid"
-                    class="position-absolute default"
-                    style="width: 10px; bottom: 12px; right: -10px"
+                    class="position-absolute default nav-chevron"
                   />
                   <img
                     src="./assets/img/chevron-down-solid-hover.svg"
                     alt="chevron-down-solid-hover"
-                    class="position-absolute in_hover"
-                    style="width: 10px; bottom: 12px; right: -10px"
+                    class="position-absolute in_hover nav-chevron"
                   />
                 </a>
               </li>
@@ -172,19 +156,17 @@
                   <img
                     src="./assets/img/chevron-down-solid.svg"
                     alt="chevron-down-solid"
-                    class="position-absolute default"
-                    style="width: 10px; bottom: 12px; right: -10px"
+                    class="position-absolute default nav-chevron"
                   />
                   <img
                     src="./assets/img/chevron-down-solid-hover.svg"
                     alt="chevron-down-solid-hover"
-                    class="position-absolute in_hover"
-                    style="width: 10px; bottom: 12px; right: -10px"
+                    class="position-absolute in_hover nav-chevron"
                   />
                 </a>
               </li>
             </ul>
-            <div>
+            <div class="navbar-right-side">
               <a
                 class="nav-link text-black position-relative py-2 d-inline"
                 href="#MyPLayStation"
@@ -192,14 +174,12 @@
                 <img
                   src="./assets/img/chevron-down-solid.svg"
                   alt="chevron-down-solid"
-                  class="position-absolute default"
-                  style="width: 10px; bottom: 12px; right: -10px"
+                  class="position-absolute default nav-chevron"
                 />
                 <img
                   src="./assets/img/chevron-down-solid-hover.svg"
                   alt="chevron-down-solid-hover"
-                  class="position-absolute in_hover"
-                  style="width: 10px; bottom: 12px; right: -10px"
+                  class="position-absolute in_hover nav-chevron"
                 />
               </a>
               <button
@@ -208,45 +188,36 @@
                 Accedi
               </button>
               <button class="btn">
-                <img
-                  src="./assets/img/lens.svg"
-                  alt="lens"
-                  style="width: 25px"
-                />
+                <img id="lens" src="./assets/img/lens.svg" alt="lens" />
               </button>
             </div>
           </div>
         </div>
       </nav>
     </section>
-    <section
-      id="page-content"
-      class="d-flex flex-column"
-      style="
-        min-height: calc(100vh - var(--navbar-height));
-        margin-top: var(--navbar-height);
-      "
-    >
+    <section id="page-content">
       <header
+        id="header-content"
         class="bg-img d-flex justify-content-start align-items-end"
-        style="height: 65vh; background-image: var(--bg-img-header)"
       >
         <div class="container text-white mb-5">
-          <img
-            src="./assets/img/returnal-hero-banner-logo.png"
-            alt="returnal-hero-banner-logo"
-            style="height: 3rem"
-            class="mb-4"
-          />
-          <h1 class="mb-4" style="font-size: 2.5rem">Rompi il cerchio</h1>
-          <p class="mb-4">
-            Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni
-            rinascita in questo esplosivo thriller fantascientifico, disponibile
-            in esclusiva su PS5.
-          </p>
-          <button class="btn btn-danger rounded-pill border-2">
-            Acquista ora
-          </button>
+          <div class="bg-img-content">
+            <img
+              id="returnal-hero-banner-logo"
+              src="./assets/img/returnal-hero-banner-logo.png"
+              alt="returnal-hero-banner-logo"
+              class="mb-4"
+            />
+            <h1 class="mb-4">Rompi il cerchio</h1>
+            <p class="mb-4">
+              Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni
+              rinascita in questo esplosivo thriller fantascientifico,
+              disponibile in esclusiva su PS5.
+            </p>
+            <button class="btn btn-danger rounded-pill border-2">
+              Acquista ora
+            </button>
+          </div>
         </div>
       </header>
       <main class="flex-grow-1">
@@ -313,27 +284,29 @@
         <section id="playstation5">PLAYSTATION 5</section>
         <section id="ittakestwo">
           <div
+            id="ittakestwo-content"
             class="bg-img d-flex justify-content-start align-items-end"
-            style="height: 65vh; background-image: var(--bg-img-ittakestwo)"
           >
-            <div class="container text-white mb-5">
-              <img
-                src="./assets/img/it-takes-two-logo.png"
-                alt="it-takes-two-logo"
-                style="height: 12.8rem"
-                class="mb-4"
-              />
-              <h2 class="mb-4" style="font-size: 2.5rem">
-                Un'avventura cooperativa selvaggia ti attende
-              </h2>
-              <p class="mb-4">
-                Trova un amico e partite insieme per l'avventura più folle delle
-                vostre vite in It Takes Two, un gioco d'avventura cooperativa a
-                piattaforme che stravolge il suo genere.
-              </p>
-              <button class="btn btn-danger rounded-pill border-2">
-                Acquista ora
-              </button>
+            <div class="container text-white my-5">
+              <div class="bg-img-content">
+                <img
+                  id="it-takes-two-logo"
+                  src="./assets/img/it-takes-two-logo.png"
+                  alt="it-takes-two-logo"
+                  class="mb-4"
+                />
+                <h2 class="mb-4">
+                  Un'avventura cooperativa selvaggia ti attende
+                </h2>
+                <p class="mb-4">
+                  Trova un amico e partite insieme per l'avventura più folle
+                  delle vostre vite in It Takes Two, un gioco d'avventura
+                  cooperativa a piattaforme che stravolge il suo genere.
+                </p>
+                <button class="btn btn-danger rounded-pill border-2">
+                  Acquista ora
+                </button>
+              </div>
             </div>
           </div>
         </section>
@@ -343,12 +316,13 @@
         <section id="playstationstore">PLAYSTATION Store</section>
         <section id="playstationnow">PLAYSTATION Now</section>
         <section id="social">
-          <div class="container my-5 text-center" style="max-width: 720px">
+          <div class="container my-5 text-center">
             <div>
-              <h3 style="font-size: 2rem">Seguici sui social media</h3>
+              <h3>Seguici sui social media</h3>
             </div>
-            <div class="row mt-3 pb-5 row-cols-2 row-cols-sm-4 gx-4 gy-5">
-              <div class="col">
+            <!-- <div class="row mt-3 pb-5 row-cols-2 row-cols-sm-4 gx-4 gy-5"> -->
+            <div class="row mt-4 justify-content-center gy-5">
+              <div class="col-6 col-sm-3 social-icon">
                 <a href="#twitter">
                   <img
                     src="./assets/img/twitter.jpg"
@@ -357,7 +331,7 @@
                   />
                 </a>
               </div>
-              <div class="col">
+              <div class="col-6 col-sm-3 social-icon">
                 <a href="#facebook"
                   ><img
                     src="./assets/img/facebook.jpg"
@@ -365,7 +339,7 @@
                     class="img-fluid"
                 /></a>
               </div>
-              <div class="col">
+              <div class="col-6 col-sm-3 social-icon">
                 <a href="#instagram">
                   <img
                     src="./assets/img/instagram.jpg"
@@ -373,7 +347,7 @@
                     class="img-fluid"
                 /></a>
               </div>
-              <div class="col">
+              <div class="col-6 col-sm-3 social-icon">
                 <a href="#youtube">
                   <img
                     src="./assets/img/youtube.png"
@@ -385,7 +359,7 @@
           </div>
         </section>
       </main>
-      <footer class="mt-auto" style="background-color: #00439c">FOOTER</footer>
+      <footer class="mt-auto">FOOTER</footer>
     </section>
     <!-- Bootstrap JS -->
     <script
