@@ -101,6 +101,14 @@ footer {
   font-weight: 600;
 }
 
+#playstationplus {
+  background-color: #bebcbb;
+}
+
+#playstationnow {
+  background-color: #161c3b;
+}
+
 /*sm*/
 @media (min-width: 576px) {
   .social-icon {
