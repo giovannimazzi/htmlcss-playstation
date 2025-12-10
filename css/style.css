@@ -125,6 +125,21 @@ footer {
   width: 150px;
 }
 
+#ps-now-logo,
+#ps-plus-logo {
+  width: 55%;
+}
+
+#playstationplus .btn {
+  background-color: #d9dadc;
+  color: #2e65e6;
+}
+
+#playstationnow .btn {
+  background-color: white;
+  color: black;
+}
+
 /*sm*/
 @media (min-width: 576px) {
   .social-icon {
