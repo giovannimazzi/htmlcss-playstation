@@ -109,6 +109,10 @@ footer {
   background-color: #161c3b;
 }
 
+#nuoveuscite {
+  background-color: #1f1f1f;
+}
+
 /*sm*/
 @media (min-width: 576px) {
   .social-icon {
