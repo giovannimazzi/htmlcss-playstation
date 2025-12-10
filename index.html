@@ -14,7 +14,7 @@
     <link rel="icon" href="./assets/img/play_logo.svg" />
 
     <!-- Bootstrap Icons -->
-    <!-- <link
+    <!--     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     /> -->
@@ -42,7 +42,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body style="min-width: 450px">
-    <section id="navbar" class="fixed-top">
+    <section id="navbar" class="fixed-top text-nowrap">
       <div
         class="bg-black text-end p-2 d-flex justify-content-end align-items-center"
       >
@@ -73,46 +73,148 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
+              <li class="nav-item me-4 me-4">
+                <a class="nav-link text-black position-relative" href="#Giochi"
+                  ><span>Giochi</span>
+                  <img
+                    src="./assets/img/chevron-down-solid.svg"
+                    alt="chevron-down-solid"
+                    class="position-absolute default"
+                    style="width: 10px; bottom: 12px; right: -10px"
+                  />
+                  <img
+                    src="./assets/img/chevron-down-solid-hover.svg"
+                    alt="chevron-down-solid-hover"
+                    class="position-absolute in_hover"
+                    style="width: 10px; bottom: 12px; right: -10px"
+                  />
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <li class="nav-item me-4">
+                <a
+                  class="nav-link text-black position-relative"
+                  href="#Hardware"
+                  ><span>Hardware</span>
+                  <img
+                    src="./assets/img/chevron-down-solid.svg"
+                    alt="chevron-down-solid"
+                    class="position-absolute default"
+                    style="width: 10px; bottom: 12px; right: -10px"
+                  />
+                  <img
+                    src="./assets/img/chevron-down-solid-hover.svg"
+                    alt="chevron-down-solid-hover"
+                    class="position-absolute in_hover"
+                    style="width: 10px; bottom: 12px; right: -10px"
+                  />
+                </a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link text-black position-relative" href="#Servizi"
+                  ><span>Servizi</span>
+                  <img
+                    src="./assets/img/chevron-down-solid.svg"
+                    alt="chevron-down-solid"
+                    class="position-absolute default"
+                    style="width: 10px; bottom: 12px; right: -10px"
+                  />
+                  <img
+                    src="./assets/img/chevron-down-solid-hover.svg"
+                    alt="chevron-down-solid-hover"
+                    class="position-absolute in_hover"
+                    style="width: 10px; bottom: 12px; right: -10px"
+                  />
+                </a>
+              </li>
+              <li class="nav-item me-4">
+                <a
+                  class="nav-link text-black position-relative"
+                  href="#Novit&aacute;"
+                  ><span>Novit&aacute;</span>
+                  <img
+                    src="./assets/img/chevron-down-solid.svg"
+                    alt="chevron-down-solid"
+                    class="position-absolute default"
+                    style="width: 10px; bottom: 12px; right: -10px"
+                  />
+                  <img
+                    src="./assets/img/chevron-down-solid-hover.svg"
+                    alt="chevron-down-solid-hover"
+                    class="position-absolute in_hover"
+                    style="width: 10px; bottom: 12px; right: -10px"
+                  />
+                </a>
+              </li>
+              <li class="nav-item me-4">
+                <a
+                  class="nav-link text-black position-relative"
+                  href="#Faiacquisti"
+                  ><span>Fai acquisti</span>
+                  <img
+                    src="./assets/img/chevron-down-solid.svg"
+                    alt="chevron-down-solid"
+                    class="position-absolute default"
+                    style="width: 10px; bottom: 12px; right: -10px"
+                  />
+                  <img
+                    src="./assets/img/chevron-down-solid-hover.svg"
+                    alt="chevron-down-solid-hover"
+                    class="position-absolute in_hover"
+                    style="width: 10px; bottom: 12px; right: -10px"
+                  />
+                </a>
+              </li>
+              <li class="nav-item me-4">
+                <a
+                  class="nav-link text-black position-relative"
+                  href="#Supporto"
+                  ><span>Supporto</span>
+                  <img
+                    src="./assets/img/chevron-down-solid.svg"
+                    alt="chevron-down-solid"
+                    class="position-absolute default"
+                    style="width: 10px; bottom: 12px; right: -10px"
+                  />
+                  <img
+                    src="./assets/img/chevron-down-solid-hover.svg"
+                    alt="chevron-down-solid-hover"
+                    class="position-absolute in_hover"
+                    style="width: 10px; bottom: 12px; right: -10px"
+                  />
+                </a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
+            <div>
+              <a
+                class="nav-link text-black position-relative py-2 d-inline"
+                href="#MyPLayStation"
+                ><span>My PLayStation</span>
+                <img
+                  src="./assets/img/chevron-down-solid.svg"
+                  alt="chevron-down-solid"
+                  class="position-absolute default"
+                  style="width: 10px; bottom: 12px; right: -10px"
+                />
+                <img
+                  src="./assets/img/chevron-down-solid-hover.svg"
+                  alt="chevron-down-solid-hover"
+                  class="position-absolute in_hover"
+                  style="width: 10px; bottom: 12px; right: -10px"
+                />
+              </a>
+              <button
+                class="btn btn-dark rounded-pill border-2 pt-1 pb-2 px-3 ms-4 me-2"
+              >
+                Accedi
               </button>
-            </form>
+              <button class="btn">
+                <img
+                  src="./assets/img/lens.svg"
+                  alt="lens"
+                  style="width: 25px"
+                />
+              </button>
+            </div>
           </div>
         </div>
       </nav>
