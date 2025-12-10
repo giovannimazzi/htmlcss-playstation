@@ -142,8 +142,36 @@ footer {
 
 .custom-sup {
   position: relative;
-  top: -0.1em;
-  font-size: 0.8em;
+  top: -0.3em;
+  font-size: 0.6em;
+}
+
+#playstation5 .card img {
+  max-width: 100px;
+}
+
+#playstation5 .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+
+#playstation5 hr {
+  display: none;
+}
+
+#playstation5 .selected .card {
+  opacity: 1;
+}
+
+#playstation5 .selected hr,
+#playstation5 .col-4:hover hr {
+  display: block;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
 }
 
 /*sm*/
