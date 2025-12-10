@@ -140,6 +140,12 @@ footer {
   color: black;
 }
 
+.custom-sup {
+  position: relative;
+  top: -0.1em;
+  font-size: 0.8em;
+}
+
 /*sm*/
 @media (min-width: 576px) {
   .social-icon {
