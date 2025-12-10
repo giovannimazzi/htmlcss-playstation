@@ -74,6 +74,7 @@ footer {
   background-repeat: no-repeat;
 }
 
+#nuoveuscite .card,
 #cards .card {
   overflow: hidden;
 }
