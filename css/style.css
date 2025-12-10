@@ -1,6 +1,7 @@
 :root {
   --navbar-height: 93.59px;
   --bg-img-header: url("../assets/img/jumbo-bg.png");
+  --bg-img-ittakestwo: url("../assets/img/it-takes-two-hero-banner-desktop.jpg");
 }
 
 * {
