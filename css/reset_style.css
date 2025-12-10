@@ -36,10 +36,11 @@ select {
   cursor: pointer;
 } */
 
-/* ul, ol { */
-/* list-style: none; */
-/* list-style-type: none; */
-/* }  */
+ul,
+ol {
+  list-style: none;
+  /* list-style-type: none; */
+}
 
 .debug,
 .debug * {
